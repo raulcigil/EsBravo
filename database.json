@@ -1,0 +1,121 @@
+{
+	"User": {
+		"Name": "Raúl"
+	},
+	"Plan": {
+		"Distance": 26,
+		"EstimatedTime": 150,
+		"Active": true,
+		"RaceDay": "2024-02-04T00:00:00Z",
+		"Microcycles": [
+			{
+				"MesocycleType": 0,
+				"MesocycleNumber": 0,
+				"StartDate": "2024-01-29T00:00:00Z",
+				"EndDate": "2024-02-04T00:00:00Z"
+			},
+			{
+				"MesocycleType": 0,
+				"MesocycleNumber": 1,
+				"StartDate": "2024-01-22T00:00:00Z",
+				"EndDate": "2024-01-28T00:00:00Z"
+			},
+			{
+				"MesocycleType": 0,
+				"MesocycleNumber": 2,
+				"StartDate": "2024-01-15T00:00:00Z",
+				"EndDate": "2024-01-21T00:00:00Z"
+			},
+			{
+				"MesocycleType": 0,
+				"MesocycleNumber": 3,
+				"StartDate": "2024-01-08T00:00:00Z",
+				"EndDate": "2024-01-14T00:00:00Z"
+			},
+			{
+				"MesocycleType": 0,
+				"MesocycleNumber": 4,
+				"StartDate": "2024-01-01T00:00:00Z",
+				"EndDate": "2024-01-07T00:00:00Z"
+			},
+			{
+				"MesocycleType": 0,
+				"MesocycleNumber": 5,
+				"StartDate": "2023-12-25T00:00:00Z",
+				"EndDate": "2023-12-31T00:00:00Z"
+			},
+			{
+				"MesocycleType": 0,
+				"MesocycleNumber": 6,
+				"StartDate": "2023-12-18T00:00:00Z",
+				"EndDate": "2023-12-24T00:00:00Z"
+			},
+			{
+				"MesocycleType": 0,
+				"MesocycleNumber": 7,
+				"StartDate": "2023-12-11T00:00:00Z",
+				"EndDate": "2023-12-17T00:00:00Z"
+			},
+			{
+				"MesocycleType": 0,
+				"MesocycleNumber": 8,
+				"StartDate": "2023-12-09T16:06:09.7230403+01:00",
+				"EndDate": "2023-12-10T00:00:00Z"
+			},
+			{
+				"MesocycleType": 0,
+				"MesocycleNumber": 0,
+				"StartDate": "2024-01-29T00:00:00Z",
+				"EndDate": "2024-02-04T00:00:00Z"
+			},
+			{
+				"MesocycleType": 0,
+				"MesocycleNumber": 1,
+				"StartDate": "2024-01-22T00:00:00Z",
+				"EndDate": "2024-01-28T00:00:00Z"
+			},
+			{
+				"MesocycleType": 0,
+				"MesocycleNumber": 2,
+				"StartDate": "2024-01-15T00:00:00Z",
+				"EndDate": "2024-01-21T00:00:00Z"
+			},
+			{
+				"MesocycleType": 0,
+				"MesocycleNumber": 3,
+				"StartDate": "2024-01-08T00:00:00Z",
+				"EndDate": "2024-01-14T00:00:00Z"
+			},
+			{
+				"MesocycleType": 0,
+				"MesocycleNumber": 4,
+				"StartDate": "2024-01-01T00:00:00Z",
+				"EndDate": "2024-01-07T00:00:00Z"
+			},
+			{
+				"MesocycleType": 0,
+				"MesocycleNumber": 5,
+				"StartDate": "2023-12-25T00:00:00Z",
+				"EndDate": "2023-12-31T00:00:00Z"
+			},
+			{
+				"MesocycleType": 0,
+				"MesocycleNumber": 6,
+				"StartDate": "2023-12-18T00:00:00Z",
+				"EndDate": "2023-12-24T00:00:00Z"
+			},
+			{
+				"MesocycleType": 0,
+				"MesocycleNumber": 7,
+				"StartDate": "2023-12-11T00:00:00Z",
+				"EndDate": "2023-12-17T00:00:00Z"
+			},
+			{
+				"MesocycleType": 0,
+				"MesocycleNumber": 8,
+				"StartDate": "2023-12-09T16:12:02.5759832+01:00",
+				"EndDate": "2023-12-10T00:00:00Z"
+			}
+		]
+	}
+}
