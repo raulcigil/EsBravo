@@ -43,6 +43,8 @@ func SaveData() {
 }
 
 func CheckUserData() {
+	DBData.User.Name = "Raúl"
+	return
 	if IsEmpty(DBData.User.Name) {
 		var name string
 		fmt.Println(("¿What's your name?"))
@@ -55,7 +57,7 @@ func CheckUserData() {
 }
 func CheckPlans() {
 	if DBData.Plan.Distance == 0 {
-		raceday, _ := time.Parse(time.DateOnly, "2024-02-04")
+		raceday, _ := time.Parse(time.DateOnly, "2024-03-24")
 		DBData.Plan = Plan{26, 150, true, raceday, []Microcycle{}}
 	}
 }
