@@ -7,6 +7,8 @@ import (
 
 // Trainning plan
 type Plan struct {
+	Id            int
+	RaceName      string
 	Distance      float32
 	EstimatedTime int // In minutes
 	Active        bool

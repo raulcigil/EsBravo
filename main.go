@@ -1,10 +1,11 @@
 package main
 
 import (
-	"fmt"
 	"log"
 	"os"
 	"time"
+
+	"github.com/labstack/echo"
 )
 
 // Path al fichero de datos de usuario
@@ -18,7 +19,12 @@ var DBData DataBase
 
 // Aqui empieza todo
 func main() {
-	ClearConsole()
+	e := echo.New()
+	RegisterRoutes(e)
+	RegisterTemplates(e)
+	e.Logger.Fatal(e.Start(":8080"))
+	return
+
 	LoadData()
 	CheckUserData()
 	CheckPlans()
@@ -45,19 +51,11 @@ func SaveData() {
 func CheckUserData() {
 	DBData.User.Name = "Raúl"
 	return
-	if IsEmpty(DBData.User.Name) {
-		var name string
-		fmt.Println(("¿What's your name?"))
-		fmt.Scanln(&name)
-		DBData.User.Name = name
-
-	} else {
-		fmt.Printf(" Hola %s!\n", DBData.User.Name)
-	}
 }
+
 func CheckPlans() {
 	if DBData.Plan.Distance == 0 {
 		raceday, _ := time.Parse(time.DateOnly, "2024-03-24")
-		DBData.Plan = Plan{26, 150, true, raceday, []Microcycle{}}
+		DBData.Plan = Plan{1, "Granadella", 26, 150, true, raceday, []Microcycle{}}
 	}
 }
