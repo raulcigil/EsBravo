@@ -24,9 +24,8 @@ func main() {
 	RegisterTemplates(e)
 	e.Logger.Fatal(e.Start(":8080"))
 	return
-
+	//return c.Redirect(http.StatusMovedPermanently, "<URL>")
 	LoadData()
-	CheckUserData()
 	CheckPlans()
 	CalculatingMicrocycles(&DBData.Plan)
 	SaveData()
@@ -48,9 +47,15 @@ func SaveData() {
 	}
 }
 
-func CheckUserData() {
-	DBData.User.Name = "Raúl"
-	return
+// Comprobar que se ha configurado la cuenta de usuario.
+func CheckUserData() bool {
+	if DBData.User.Id == 0 {
+		return true
+	}
+	if IsEmpty(DBData.User.Name) {
+		return true
+	}
+	return false
 }
 
 func CheckPlans() {
