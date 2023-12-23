@@ -1,2 +1,2 @@
-# GoFastAfter50
-Console application to creating a long-term training plan. Based in the book "Fast After 50" (Friel Joe)
+# EsBravo trainning platform
+Please be patient while we are working on the first release. 
